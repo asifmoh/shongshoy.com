@@ -32,7 +32,7 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="bn" />
-        <meta name="robots" content="nofollow, noindex">
+        <meta name="robots" content="nofollow, noindex" />
         <link rel="canonical" href="https://www.shongshoy.com"></link>
       </Head>
 
