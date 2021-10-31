@@ -144,7 +144,7 @@ export const SectionContainer = styled.div`
 export const PostItemTitle = styled.h2`
   margin: 0;
   @media (min-width: 700px) {
-    font-size: 6.4rem;
+    font-size: 4.4rem;
   }
 `;
 

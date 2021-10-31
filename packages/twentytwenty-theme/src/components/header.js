@@ -6,25 +6,27 @@ import SearchModal from "./search/search-modal";
 import MobileSearchButton from "./mobile/search-button";
 import MobileMenuButton from "./mobile/menu-button";
 import MobileMenuModal from "./mobile/menu-modal";
-
+import Sitelogo from '../assets/shongshoy_new_Logo_320.png';
 const Header = ({ state }) => {
   const { title, description } = state.frontity;
   const { headerBg } = state.theme.colors;
 
   return (
     <PageHeader bg={headerBg} id="site-header">
+      <div >
+      <a href="/">
+      <img src={Sitelogo} alt="Shongshoy" className="center"
+          
+        /> </a>
+        </div>
       <HeaderInner>
+     
         <TitleWrapper>
           {/* Search button on mobile */}
           {state.theme.showSearchInHeader && <MobileSearchButton />}
 
           {/* Heading and Description of the site */}
-          <TitleGroup>
-            <SiteTitle>
-              <StyledLink link="/">{title}</StyledLink>
-            </SiteTitle>
-            <SiteDescription>{description}</SiteDescription>
-          </TitleGroup>
+        
 
           {/* Mobile menu button and modal */}
           <MobileMenuButton />

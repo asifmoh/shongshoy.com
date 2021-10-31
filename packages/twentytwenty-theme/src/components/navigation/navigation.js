@@ -64,7 +64,7 @@ const Menu = styled.ul`
 `;
 
 const MenuItem = styled.li`
-  font-size: inherit;
+  font-size: 2.5rem;
   line-height: 1.25;
   position: relative;
   margin: 0.8rem 0 0 1.6rem !important;

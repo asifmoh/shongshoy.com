@@ -13,6 +13,7 @@ import {
 import PostCategories from "./post-categories";
 import PostMeta from "./post-meta";
 import PostTags from "./post-tags";
+import Comments from "../comments";
 
 /**
  * The Post component that the TwentyTwenty theme uses for rendering any kind of
@@ -116,6 +117,8 @@ const Post = ({ state, actions, libraries }) => {
           <EntryContent>
             <Html2React html={post.content.rendered} />
           </EntryContent>
+          <hr />
+          <Comments postId={post.id} />
           {/* If the post has tags, render it */}
           {post.tags && <PostTags tags={tags} />}
         </PostInner>
@@ -127,7 +130,7 @@ const Post = ({ state, actions, libraries }) => {
 export default connect(Post);
 
 const Header = styled(PostHeader)`
-  background-color: #fff;
+  background-color: #f5efe0;
   margin: 0;
   padding: 4rem 0;
   @media (min-width: 700px) {
@@ -148,7 +151,7 @@ const FeaturedImage = styled(FeaturedMedia)`
   }
 
   &:before {
-    background: #fff;
+    background: #f5efe0;
     content: "";
     display: block;
     position: absolute;

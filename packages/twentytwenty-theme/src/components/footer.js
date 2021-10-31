@@ -31,10 +31,11 @@ const Footer = ({ state }) => {
       <SiteFooterInner>
         <Credits>
           <Copyright>
-            &copy; {currentYear}{" "}
-            <Link link={state.frontity.url}>{state.frontity.title}</Link>
+          
+            <Link link={state.frontity.url}>{state.frontity.title}</Link> 
+             &copy; {currentYear}{" "}
           </Copyright>
-          <PoweredBy>Powered by Frontity</PoweredBy>
+          <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত |</PoweredBy>
         </Credits>
         <BackToTop />
       </SiteFooterInner>
@@ -87,7 +88,7 @@ const Copyright = styled.p`
 `;
 
 const PoweredBy = styled.p`
-  color: #6d6d6d;
+  color: black;
   display: none;
   margin: 0 0 0 2.4rem;
 

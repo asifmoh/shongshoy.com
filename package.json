@@ -2,7 +2,7 @@
   "name": "shongshoy-app",
   "version": "1.0.0",
   "private": true,
-  "description": "Frontity project",
+  "description": "Shongshoy.com React app",
   "keywords": [
     "frontity"
   ],
@@ -17,11 +17,16 @@
   },
   "prettier": {},
   "dependencies": {
-    "frontity": "^1.17.1",
+    "@capacitor/android": "^3.2.5",
+    "@capacitor/cli": "^3.2.5",
+    "@capacitor/core": "^3.2.5",
+    "@capacitor/ios": "^3.2.5",
     "@frontity/core": "^1.14.3",
-    "@frontity/wp-source": "^1.11.6",
-    "@frontity/tiny-router": "^1.4.4",
     "@frontity/html2react": "^1.7.0",
-    "@frontity/twentytwenty-theme": "./packages/twentytwenty-theme"
+    "@frontity/tiny-router": "^1.4.4",
+    "@frontity/twentytwenty-theme": "./packages/twentytwenty-theme",
+    "@frontity/wp-comments": "^1.0.0",
+    "@frontity/wp-source": "^1.11.6",
+    "frontity": "^1.17.1"
   }
 }

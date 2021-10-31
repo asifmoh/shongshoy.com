@@ -31,7 +31,9 @@ const Theme = ({ state }) => {
       <MetaTitle />
       <Head>
         <meta name="description" content={state.frontity.description} />
-        <html lang="en" />
+        <html lang="bn" />
+        <meta name="robots" content="nofollow, noindex">
+        <link rel="canonical" href="https://www.shongshoy.com"></link>
       </Head>
 
       {/* Accessibility: Provides ability to skip to main content */}

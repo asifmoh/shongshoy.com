@@ -57,6 +57,12 @@ const cssReset = css`
   path {
     transition: all 0.15s linear;
   }
+  
+center {
+  display: block;
+  margin: auto;
+}
+
 `;
 
 /**
@@ -274,22 +280,22 @@ const elementBase700 = css`
 
     h1,
     .heading-size-1 {
-      font-size: 6.4rem;
+      font-size: 4.0rem;
     }
 
     h2,
     .heading-size-2 {
-      font-size: 4.8rem;
+      font-size: 3.5rem;
     }
 
     h3,
     .heading-size-3 {
-      font-size: 4rem;
+      font-size: 3rem;
     }
 
     h4,
     .heading-size-4 {
-      font-size: 3.2rem;
+      font-size: 2.7rem;
     }
 
     h5,
@@ -299,7 +305,7 @@ const elementBase700 = css`
 
     h6,
     .heading-size-6 {
-      font-size: 1.8rem;
+      font-size: 2rem;
     }
   }
 `;
@@ -308,7 +314,7 @@ const elementBase1220 = css`
   @media (min-width: 1220px) {
     h1,
     .heading-size-1 {
-      font-size: 8.4rem;
+      font-size: 4.4rem;
     }
   }
 `;
@@ -393,17 +399,11 @@ const listStyle = css`
  */
 const quoteStyle = (colors) => css`
   blockquote {
-    border-color: ${colors.primary};
-    border-style: solid;
-
-    /*rtl:ignore*/
-    border-width: 0 0 0 0.2rem;
-    color: inherit;
-    font-size: 1em;
-    margin: 4rem 0;
-
-    /*rtl:ignore*/
-    padding: 0.5rem 0 0.5rem 2rem;
+    border: 1px solid black;
+    padding: 20px;
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: 10px 10px 5px #aaaaaa
   }
 
   cite {
@@ -496,6 +496,7 @@ const mediaStyle = (colors) => css`
     display: block;
     height: auto;
     max-width: 100%;
+    margin: auto;
   }
 
   figcaption,
@@ -568,6 +569,32 @@ const tableStyles = (colors) => css`
   th {
     font-weight: 700;
   }
+  #toc_container {
+    background: #f5efe0;
+      border: 1px solid #aaa;
+      padding: 10px;
+      margin-bottom: 1em;
+      width: auto;
+      display: table;
+      font-size: 95%;
+  }
+
+  toc_title{
+    text-align: center;
+    font-weight: 700;
+    margin: 0;
+    padding: 0;
+
+  }
+  toc_list{
+  margin-top: 1em;
+}
+
+.footnotes{
+
+  font-style: italic;
+}
+
 `;
 
 /**
@@ -592,3 +619,7 @@ const globalStyle = (colors) =>
   ]);
 
 export default globalStyle;
+
+
+/*-------Main css ---------*/
+
