@@ -58,9 +58,16 @@ const cssReset = css`
     transition: all 0.15s linear;
   }
   
-center {
+.center {
   display: block;
   margin: auto;
+  width: 14rem;
+  @media (min-width: 700px) {
+    width: 20rem;
+  }
+
+
+
 }
 
 `;
