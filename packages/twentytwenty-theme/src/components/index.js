@@ -36,6 +36,7 @@ const Theme = ({ state }) => {
         <link rel="canonical" href="https://www.shongshoy.com"></link>
       </Head>
 
+
       {/* Accessibility: Provides ability to skip to main content */}
       <SkipLink as="a" href="#main">
         Skip to main content
@@ -59,6 +60,9 @@ const Theme = ({ state }) => {
       </div>
 
       <Footer />
+
+
+
     </>
   );
 };
@@ -67,4 +71,6 @@ export default connect(Theme);
 
 const Main = styled.main`
   display: block;
+  
 `;
+

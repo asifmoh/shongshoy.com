@@ -2,6 +2,7 @@ import { styled, connect } from "frontity";
 import Link from "./link";
 import SectionContainer from "./styles/section-container";
 
+
 // Component that provides scroll to top functionality
 const BackToTop = () => {
   // scroll to top function
@@ -38,12 +39,23 @@ const Footer = ({ state }) => {
           <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত |</PoweredBy>
         </Credits>
         <BackToTop />
+       
+      
       </SiteFooterInner>
+
+
+   
+    
+    
+    
     </SiteFooter>
   );
 };
 
 export default connect(Footer);
+
+
+
 
 const SiteFooterInner = styled(SectionContainer)`
   align-items: baseline;
