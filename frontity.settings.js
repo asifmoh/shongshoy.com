@@ -7,7 +7,7 @@ const settings = {
       "description": "জ্ঞান যেখানে সীমাবদ্ধ, যুক্তি যেখানে আড়ষ্ট, মুক্তি সেখানে অসম্ভব"
     }
   },
-  "packages": [
+   "packages": [
     {
       "name": "@frontity/twentytwenty-theme",
       "state": {
@@ -61,7 +61,7 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://www.shongshoy.com"
+          "url": "https://www.nastikya.com"
         }
       }
     },

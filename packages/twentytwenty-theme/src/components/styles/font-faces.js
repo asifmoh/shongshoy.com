@@ -8,11 +8,12 @@ import InterSemiBoldUS from "../../fonts/inter/Inter-SemiBold-US-ASCII.woff2";
 import InterMediumLatin from "../../fonts/inter/Inter-Medium-LATIN.woff2";
 import InterBoldLatin from "../../fonts/inter/Inter-Bold-LATIN.woff2";
 import InterSemiBoldLatin from "../../fonts/inter/Inter-SemiBold-LATIN.woff2";
-
+import Bangla from "../../fonts/inter/kalpurush.woff2";
+import Slogan from "../../fonts/inter/Shobuj.woff2";
 const fonts = {
-  "us-ascii": [InterMediumUS, InterSemiBoldUS, InterBoldUS],
-  latin: [InterMediumLatin, InterSemiBoldLatin, InterBoldLatin],
-  all: [InterMedium, InterSemiBold, InterBold],
+  "us-ascii": [Bangla],
+  latin: [Bangla],
+  all: [Bangla],
 };
 
 const FontFace = ({ state }) => {
@@ -22,7 +23,7 @@ const FontFace = ({ state }) => {
     <Global
       styles={css`
         @font-face {
-          font-family: "Inter";
+          font-family: "Bangla";
           font-style: normal;
           font-weight: 500;
           font-display: "swap";
@@ -30,7 +31,7 @@ const FontFace = ({ state }) => {
         }
 
         @font-face {
-          font-family: "Inter";
+          font-family: "Bangla";
           font-style: normal;
           font-weight: 600;
           font-display: "swap";
@@ -38,7 +39,7 @@ const FontFace = ({ state }) => {
         }
 
         @font-face {
-          font-family: "Inter";
+          font-family: "Bangla";
           font-style: normal;
           font-weight: 700;
           font-display: "swap";

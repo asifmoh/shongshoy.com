@@ -192,7 +192,7 @@ export const PostInner = styled(SectionContainer)`
   padding-top: 5rem;
   @media (min-width: 700px) {
     padding-top: 8rem;
-  }
+    }
 `;
 
 export const EntryContent = styled.div`
