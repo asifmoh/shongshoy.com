@@ -52,6 +52,7 @@ const PostItem = ({
   return (
     <Post>
       <PostHeader>
+        
         <SectionContainer>
           {/* If the post has categories, render the categories */}
           {item.categories && <PostCategories categories={categories} />}
