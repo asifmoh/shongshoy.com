@@ -329,7 +329,7 @@ const elementBase1220 = css`
 const listStyle = css`
   ul,
   ol {
-    margin: 0 0 3rem 3rem;
+    margin: 0 0 3rem 1rem;
   }
 
   ul {
@@ -358,7 +358,7 @@ const listStyle = css`
 
   li {
     line-height: 1.5;
-    margin: 0.5rem 0 0 2rem;
+    margin: 0.5rem 0 0 1rem;
   }
 
   li > ul,
@@ -410,7 +410,8 @@ const quoteStyle = (colors) => css`
     padding: 20px;
     background-color: #dddcdc;
     border-radius: 4px;
-    box-shadow: 10px 10px 5px #aaaaaa
+    box-shadow: 5px 5px 5px #aaaaaa;
+    page-break-inside: avoid;
   }
 
   cite {
@@ -602,9 +603,23 @@ const tableStyles = (colors) => css`
   font-style: italic;
 }
 
+a:link {
+  color: #056608;
+}
+
 p.has-background {
   padding: 1.25em 2.375em;
 }
+
+li p.has-background {
+  padding: 1.25em 2.375em;
+}
+
+ol.has-background, ul.has-background {
+  padding: 1.25em 2.375em;
+}
+
+
 
 :root .has-pale-pink-background-color {
 	background-color: #f78da7

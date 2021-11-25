@@ -101,12 +101,12 @@ export default connect(PostItem);
 
 export const Post = styled.article`
   &:first-of-type {
-    padding: 4rem 0 0;
+    padding: 1rem 0 0;
   }
 
   @media (min-width: 700px) {
     &:first-of-type {
-      padding: 8rem 0 0;
+      padding: 2rem 0 0;
     }
   }
 `;

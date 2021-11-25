@@ -132,9 +132,9 @@ export default connect(Post);
 const Header = styled(PostHeader)`
   background-color: #f5efe0;
   margin: 0;
-  padding: 4rem 0;
+  padding: 1rem 0;
   @media (min-width: 700px) {
-    padding: 8rem 0;
+    padding: 2rem 0;
   }
 `;
 
