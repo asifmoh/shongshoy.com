@@ -602,6 +602,10 @@ const tableStyles = (colors) => css`
   font-style: italic;
 }
 
+p.has-background {
+  padding: 1.25em 2.375em;
+}
+
 :root .has-pale-pink-background-color {
 	background-color: #f78da7
 }
