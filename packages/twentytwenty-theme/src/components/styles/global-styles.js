@@ -607,13 +607,6 @@ a:link {
   color: #056608;
 }
 
-
-.wp-block-image .aligncenter {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-
 p.has-background {
   padding: 1.25em 2.375em;
 }

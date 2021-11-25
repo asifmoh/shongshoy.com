@@ -100,7 +100,7 @@ const Modal = styled.div`
 `;
 
 const ModalInner = styled.div`
-  background: #fff;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,170,133,0.835171568627451) 0%, rgba(54,230,232,1) 49%, rgba(0,212,255,1) 100%);
   display: flex;
   justify-content: stretch;
   overflow: auto;
