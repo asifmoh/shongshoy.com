@@ -68,7 +68,7 @@ const Text = styled.p`
 `;
 
 const SearchContainer = styled(SectionContainer)`
-  padding-top: 5rem;
+  padding-top: 2rem;
   @media (min-width: 700px) {
     padding-top: 6rem;
   }

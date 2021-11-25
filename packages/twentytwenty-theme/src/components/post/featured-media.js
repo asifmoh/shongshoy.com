@@ -45,7 +45,7 @@ const FeaturedMedia = ({ state, id, className }) => {
 export default connect(FeaturedMedia);
 
 const Figure = styled.figure`
-  margin-top: 5rem;
+  margin-top: 2rem;
   position: relative;
 
   @media (min-width: 700px) {

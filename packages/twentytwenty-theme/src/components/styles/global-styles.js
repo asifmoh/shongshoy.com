@@ -287,22 +287,22 @@ const elementBase700 = css`
 
     h1,
     .heading-size-1 {
-      font-size: 4.0rem;
+      font-size: 3.2rem;
     }
 
     h2,
     .heading-size-2 {
-      font-size: 3.5rem;
+      font-size: 3rem;
     }
 
     h3,
     .heading-size-3 {
-      font-size: 3rem;
+      font-size: 2.8rem;
     }
 
     h4,
     .heading-size-4 {
-      font-size: 2.7rem;
+      font-size: 2.6rem;
     }
 
     h5,
@@ -312,7 +312,7 @@ const elementBase700 = css`
 
     h6,
     .heading-size-6 {
-      font-size: 2rem;
+      font-size: 2.2rem;
     }
   }
 `;
@@ -606,6 +606,13 @@ const tableStyles = (colors) => css`
 a:link {
   color: #056608;
 }
+
+
+.wp-block-image .aligncenter {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 
 p.has-background {
   padding: 1.25em 2.375em;

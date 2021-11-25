@@ -61,7 +61,10 @@ const settings = {
       "name": "@frontity/wp-source",
       "state": {
         "source": {
-          "url": "https://www.nastikya.com"
+          "url": "https://www.nastikya.com",
+          "params": {
+            "per_page": 20
+          }
         }
       }
     },
