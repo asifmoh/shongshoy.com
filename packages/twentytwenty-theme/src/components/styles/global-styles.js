@@ -48,6 +48,10 @@ const cssReset = css`
     text-align: inherit;
   }
 
+blockquote{
+  margin-bottom:3rem;
+}
+
   blockquote::before,
   blockquote::after {
     content: "";
