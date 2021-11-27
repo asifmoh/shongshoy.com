@@ -48,7 +48,7 @@ const cssReset = css`
     text-align: inherit;
   }
   .brighttext {
-
+font-size: 1.4rem;
     color: #0e0740;
   }
 blockquote{

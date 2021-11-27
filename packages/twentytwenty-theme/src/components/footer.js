@@ -14,8 +14,9 @@ const BackToTop = () => {
   };
 
   return (
+    
     <a href="#site-header" onClick={scrollToTop} style={{ cursor: "pointer" }}>
-      <span style={{ marginRight: 8 }}>To the top</span>
+     
       <span className="arrow" aria-hidden="true">
         ↑
       </span>
@@ -29,32 +30,87 @@ const Footer = ({ state }) => {
 
   return (
     <SiteFooter bg={footerBg} role="contentinfo">
+       
+      
+
+
+       <SiteFooterCategory>
+       <h4>বিভাগ সমূহ </h4>
+       <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
+      
+      <a href="/category/sticky">অবশ্যপাঠ্য</a> |&nbsp;
+      <a href="/category/editorial">সম্পাদকীয়</a> |&nbsp;
+      <a href="/category/philosophy">দর্শন</a> |&nbsp;
+      <a href="/category/feminism">নারীবাদ</a> |&nbsp;
+      <a href="/category/science">বিজ্ঞান</a> |&nbsp;
+      <a href="/category/origin-of-life">জীবের উদ্ভব</a> |&nbsp;
+      <a href="/category/science/evolution">বিবর্তন</a> |&nbsp;
+      <a href="/category/science/genetics">জেনেটিক্স</a> |&nbsp;
+      <a href="/category/science/archeology">আর্কিওলজি</a> |&nbsp;
+      <a href="/category/science/physics">পদার্থবিদ্যা</a> |&nbsp;
+      <a href="/category/science/space">মহাকাশ</a> |&nbsp; 
+      <a href="/category/science/big-bang">বৃহৎ সম্প্রসারণ</a>
+      <a href="/category/pseudoscience">ছদ্মবিজ্ঞান</a> |&nbsp;
+      <a href="/category/human-rights">মানবাধিকার</a> |&nbsp;
+      <a href="/category/science/psychology">মনোবিজ্ঞান</a> |&nbsp;
+      <a href="/category/history">ইতিহাস</a> |&nbsp;
+      <a href="/category/history/religion-in-bengali-history">বাংলায় ধর্মের ইতিহাস</a> |&nbsp;
+      <a href="/category/sociology-of-religion">ইতিহাসে ধর্ম</a> |&nbsp;
+      <a href="/category/theism">আস্তিক্য</a> |&nbsp;
+      <a href="/category/religion">ধর্ম</a> |&nbsp;
+      <a href="/category/skepticism">সংশয়বাদ</a> |&nbsp;
+      <a href="/category/psychology-of-religion">ধর্মের মনস্তত্ত্ব</a> |&nbsp;
+      <a href="/category/satire">স্যাটায়ার</a> |&nbsp;
+      <a href="/category/sticky-notes">স্টিকি</a> |&nbsp;
+      <a href="/category/response">প্রতিক্রিয়া</a> |&nbsp;
+      <a href="/category/thoughts">স্বতন্ত্র ভাবনা</a> |&nbsp;
+      <a href="/category/rationalism">যুক্তিবাদ</a> |&nbsp;
+      <a href="/category/religion/islam">ইসলাম</a> |&nbsp;
+      <a href="/category/feminism/women-in-islam">ইসলামে নারী</a> |&nbsp;
+      <a href="/category/religion/islam/error-in-quran">কোরআনের ভুল</a> |&nbsp;
+      <a href="/category/religion/islam/error-in-hadith">হাদিসের ভুল</a> |&nbsp;
+      <a href="/category/religion/hinduism">হিন্দুধর্ম</a> |&nbsp;
+      <a href="/category/feminism/women-in-hinduism">হিন্দুধর্মে নারী</a> |&nbsp;
+      <a href="/category/religion/christianity">খ্খ্রিস্টান</a> |&nbsp;
+      <a href="/category/religion/buddhism">বৌদ্ধ</a> |&nbsp;
+      <a href="/category/propaganda">প্রোপাগান্ডা</a> |&nbsp;
+      <a href="/category/question-answer">প্রশ্নোত্তর</a> |&nbsp;
+      <a href="/category/books">বই</a> |&nbsp; 
+     
+      </div>
+      <hr />
+       </SiteFooterCategory>
+       
        <SiteFooterTag>
-      <a href="/tag/guest-writers">অতিথি লেখক(32)</a>&nbsp;
-      <a href="/tag/allah-related">আল্লাহ সম্পর্কিত প্রবন্ধ(5)</a>&nbsp;
-      <a href="/tag/conflict-in-islam">ইসলামে অন্তর্দ্বন্দ্ব(3)</a>&nbsp;
-      <a href="/tag/inhumane-islam">ইসলামে অমানবিক বিষয়(38)</a>&nbsp;
-      <a href="/tag/irrational-islam">ইসলামে অযৌক্তিক বিষয়(22)</a>&nbsp;
-      <a href="/tag/islam-women">ইসলামে নারী(20)</a>&nbsp;
-      <a href="/tag/quran-related">কোরআন সম্পর্কিত প্রবন্ধ(14)</a>&nbsp;
-      <a href="/tag/christianity-related">খ্রিস্টধর্ম(6)</a>&nbsp;
-      <a href="/tag/jizya">জিযিয়া/জিজিয়া(4)</a>&nbsp;
-      <a href="/tag/jihad-communalism">জিহাদ ও সাম্প্রদায়িকতা(9)</a>&nbsp;
-      <a href="/tag/islamic-propaganda">দাইয়ীদের প্রপাগাণ্ডার জবাব(12)</a>&nbsp;
-      <a href="/tag/answers">দাবী সমূহের উত্তর(52)</a>&nbsp;
-      <a href="/tag/experiences">ধর্মত্যাগের অভিজ্ঞতা(9)</a>&nbsp;
-      <a href="/tag/freedom-of-speech">বাক-স্বাধীনতা(1)</a>&nbsp;
-      <a href="/tag/science">বিজ্ঞান(27)</a>&nbsp;
-      <a href="/tag/buddhism">বৌদ্ধধর্ম(6)</a>&nbsp;
-      <a href="/tag/humanism">মানববাদ(7)</a>&nbsp;
-      <a href="/tag/muhammad-related">মুহাম্মদ সম্পর্কিত প্রবন্ধ(27)</a>&nbsp;
-      <a href="/tag/rationalism">যুক্তিবাদ(37)</a>&nbsp;
-      <a href="/tag/ramya">রম্যরচনা(12)</a>&nbsp;
-      <a href="/tag/politics">রাজনীতি(8)</a>&nbsp;
-      <a href="/tag/hadith">হাদিস সম্পর্কিত প্রবন্ধ(3)</a>&nbsp;
-      <a href="/tag/hindu">হিন্দুধর্ম(75)</a>&nbsp;
-      <a href="/tag/hinduism-beef">হিন্দুধর্মে গোমাংস(11)</a>&nbsp;
+         <h4>ট্যাগ ক্লাউড</h4>
+         <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
+      <a href="/tag/guest-writers">অতিথি লেখক(32)</a> |&nbsp; 
+      <a href="/tag/allah-related">আল্লাহ সম্পর্কিত প্রবন্ধ(5)</a> |&nbsp;
+      <a href="/tag/conflict-in-islam">ইসলামে অন্তর্দ্বন্দ্ব(3)</a> |&nbsp;
+      <a href="/tag/inhumane-islam">ইসলামে অমানবিক বিষয়(38)</a> |&nbsp;
+      <a href="/tag/irrational-islam">ইসলামে অযৌক্তিক বিষয়(22)</a> |&nbsp;
+      <a href="/tag/islam-women">ইসলামে নারী(20)</a> |&nbsp;
+      <a href="/tag/quran-related">কোরআন সম্পর্কিত প্রবন্ধ(14)</a> |&nbsp;
+      <a href="/tag/christianity-related">খ্রিস্টধর্ম(6)</a> |&nbsp;
+      <a href="/tag/jizya">জিযিয়া/জিজিয়া(4)</a> |&nbsp;
+      <a href="/tag/jihad-communalism">জিহাদ ও সাম্প্রদায়িকতা(9)</a> |&nbsp;
+      <a href="/tag/islamic-propaganda">দাইয়ীদের প্রপাগাণ্ডার জবাব(12)</a> |&nbsp;
+      <a href="/tag/answers">দাবী সমূহের উত্তর(52)</a> |&nbsp;
+      <a href="/tag/experiences">ধর্মত্যাগের অভিজ্ঞতা(9)</a> |&nbsp;
+      <a href="/tag/freedom-of-speech">বাক-স্বাধীনতা(1)</a> |&nbsp;
+      <a href="/tag/science">বিজ্ঞান(27)</a> |&nbsp;
+      <a href="/tag/buddhism">বৌদ্ধধর্ম(6)</a> |&nbsp;
+      <a href="/tag/humanism">মানববাদ(7)</a> |&nbsp;
+      <a href="/tag/muhammad-related">মুহাম্মদ সম্পর্কিত প্রবন্ধ(27)</a> |&nbsp;
+      <a href="/tag/rationalism">যুক্তিবাদ(37)</a> |&nbsp;
+      <a href="/tag/ramya">রম্যরচনা(12)</a> |&nbsp;
+      <a href="/tag/politics">রাজনীতি(8)</a> |&nbsp;
+      <a href="/tag/hadith">হাদিস সম্পর্কিত প্রবন্ধ(3)</a> |&nbsp;
+      <a href="/tag/hindu">হিন্দুধর্ম(75)</a> |&nbsp;
+      <a href="/tag/hinduism-beef">হিন্দুধর্মে গোমাংস(11)</a> |&nbsp;
       <a href="/tag/hinduism-caste-system">হিন্দুধর্মে জাতিভেদ বা বর্ণপ্রথা(18)</a>&nbsp;
+      </div>
+      <hr />
     </SiteFooterTag>
       
       <SiteFooterInner>
@@ -62,12 +118,12 @@ const Footer = ({ state }) => {
           <Copyright>
           
             <Link link={state.frontity.url}>{state.frontity.title}</Link> 
-             &copy; {currentYear}{" "}
+            &nbsp;&copy; {currentYear}{" "}
           </Copyright>
           <div className="brighttext">
-          <Wave text=" | Shongshoy: Bengali blog about Skepticism" /></div>
+          <Wave text=" | Shongshoy: Bengali blog about Skepticism |" /></div>
 
-          <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত </PoweredBy>
+          <PoweredBy>সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত </PoweredBy>
         </Credits>
         <BackToTop />
        
@@ -98,8 +154,15 @@ const SiteFooterTag = styled(SectionContainer)`
  
 `;
 
+const SiteFooterCategory = styled(SectionContainer)`
+  
+ 
+`;
+
+
+
 const SiteFooter = styled.footer`
-  margin-top: 5rem;
+  margin-top: 2rem;
   border-color: #dcd7ca;
   border-style: solid;
   border-width: 0;
@@ -108,7 +171,7 @@ const SiteFooter = styled.footer`
   color: #000000;
 
   @media (min-width: 700px) {
-    margin-top: 8rem;
+    margin-top: 4rem;
     font-size: 1.8rem;
     padding: 4.3rem 0;
   }
@@ -135,9 +198,8 @@ const Copyright = styled.p`
 `;
 
 const PoweredBy = styled.p`
-  color: black;
-  display: none;
-  margin: 0 0 0 2.4rem;
+color: black;
+margin: 0 0 0 2rem;
 
   @media (min-width: 700px) {
     display: block;
