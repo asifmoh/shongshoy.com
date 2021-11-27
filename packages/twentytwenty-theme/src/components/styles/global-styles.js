@@ -47,7 +47,10 @@ const cssReset = css`
     padding: 0;
     text-align: inherit;
   }
+  .brighttext {
 
+    color: #0e0740;
+  }
 blockquote{
   margin-bottom:3rem;
 }

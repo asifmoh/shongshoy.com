@@ -32,6 +32,7 @@
     "@frontity/wp-comments": "^1.0.0",
     "@frontity/wp-source": "^1.11.6",
     "@frontity/yoast": "^2.1.1",
-    "frontity": "^1.17.1"
+    "frontity": "^1.17.1",
+    "react-animated-text": "^0.1.4"
   }
 }

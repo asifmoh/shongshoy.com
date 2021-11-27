@@ -1,7 +1,7 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
 import SectionContainer from "./styles/section-container";
-
+import { Wave } from 'react-animated-text';
 
 // Component that provides scroll to top functionality
 const BackToTop = () => {
@@ -29,6 +29,34 @@ const Footer = ({ state }) => {
 
   return (
     <SiteFooter bg={footerBg} role="contentinfo">
+       <SiteFooterTag>
+      <a href="/tag/guest-writers">অতিথি লেখক(32)</a>&nbsp;
+      <a href="/tag/allah-related">আল্লাহ সম্পর্কিত প্রবন্ধ(5)</a>&nbsp;
+      <a href="/tag/conflict-in-islam">ইসলামে অন্তর্দ্বন্দ্ব(3)</a>&nbsp;
+      <a href="/tag/inhumane-islam">ইসলামে অমানবিক বিষয়(38)</a>&nbsp;
+      <a href="/tag/irrational-islam">ইসলামে অযৌক্তিক বিষয়(22)</a>&nbsp;
+      <a href="/tag/islam-women">ইসলামে নারী(20)</a>&nbsp;
+      <a href="/tag/quran-related">কোরআন সম্পর্কিত প্রবন্ধ(14)</a>&nbsp;
+      <a href="/tag/christianity-related">খ্রিস্টধর্ম(6)</a>&nbsp;
+      <a href="/tag/jizya">জিযিয়া/জিজিয়া(4)</a>&nbsp;
+      <a href="/tag/jihad-communalism">জিহাদ ও সাম্প্রদায়িকতা(9)</a>&nbsp;
+      <a href="/tag/islamic-propaganda">দাইয়ীদের প্রপাগাণ্ডার জবাব(12)</a>&nbsp;
+      <a href="/tag/answers">দাবী সমূহের উত্তর(52)</a>&nbsp;
+      <a href="/tag/experiences">ধর্মত্যাগের অভিজ্ঞতা(9)</a>&nbsp;
+      <a href="/tag/freedom-of-speech">বাক-স্বাধীনতা(1)</a>&nbsp;
+      <a href="/tag/science">বিজ্ঞান(27)</a>&nbsp;
+      <a href="/tag/buddhism">বৌদ্ধধর্ম(6)</a>&nbsp;
+      <a href="/tag/humanism">মানববাদ(7)</a>&nbsp;
+      <a href="/tag/muhammad-related">মুহাম্মদ সম্পর্কিত প্রবন্ধ(27)</a>&nbsp;
+      <a href="/tag/rationalism">যুক্তিবাদ(37)</a>&nbsp;
+      <a href="/tag/ramya">রম্যরচনা(12)</a>&nbsp;
+      <a href="/tag/politics">রাজনীতি(8)</a>&nbsp;
+      <a href="/tag/hadith">হাদিস সম্পর্কিত প্রবন্ধ(3)</a>&nbsp;
+      <a href="/tag/hindu">হিন্দুধর্ম(75)</a>&nbsp;
+      <a href="/tag/hinduism-beef">হিন্দুধর্মে গোমাংস(11)</a>&nbsp;
+      <a href="/tag/hinduism-caste-system">হিন্দুধর্মে জাতিভেদ বা বর্ণপ্রথা(18)</a>&nbsp;
+    </SiteFooterTag>
+      
       <SiteFooterInner>
         <Credits>
           <Copyright>
@@ -36,7 +64,10 @@ const Footer = ({ state }) => {
             <Link link={state.frontity.url}>{state.frontity.title}</Link> 
              &copy; {currentYear}{" "}
           </Copyright>
-          <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত |</PoweredBy>
+          <div className="brighttext">
+          <Wave text=" | Shongshoy: Bengali blog about Skepticism" /></div>
+
+          <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত </PoweredBy>
         </Credits>
         <BackToTop />
        
@@ -44,10 +75,9 @@ const Footer = ({ state }) => {
       </SiteFooterInner>
 
 
-   
+  
     
-    
-    
+     
     </SiteFooter>
   );
 };
@@ -61,6 +91,11 @@ const SiteFooterInner = styled(SectionContainer)`
   align-items: baseline;
   display: flex;
   justify-content: space-between;
+`;
+
+const SiteFooterTag = styled(SectionContainer)`
+  
+ 
 `;
 
 const SiteFooter = styled.footer`
