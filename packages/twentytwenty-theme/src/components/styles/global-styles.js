@@ -48,10 +48,17 @@ const cssReset = css`
     text-align: inherit;
   }
   .brighttext {
-font-size: 1.4rem;
+font-size: 1.2rem;
     color: #0e0740;
   }
-blockquote{
+#slider{
+  display: block;
+  margin-left: 20%;
+  margin-right: 30%;
+  width: 40%;
+}
+
+  blockquote{
   margin-bottom:3rem;
 }
 

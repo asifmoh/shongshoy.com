@@ -23,7 +23,7 @@ const ArchiveHeader = styled.header`
   padding: 1rem 0;
 
   @media (min-width: 700px) {
-    padding: 8rem 0;
+    padding: 2rem 0;
   }
 `;
 
@@ -42,5 +42,5 @@ const ArchiveTitle = styled.h1`
 
 const ColoredText = styled.span`
   color: ${(props) => props.color};
-  text-transform: capitalize;
+  
 `;
