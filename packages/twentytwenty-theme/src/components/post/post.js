@@ -73,8 +73,10 @@ const Post = ({ state, actions, libraries }) => {
 
   // Load the post, but only if the data is ready.
   return data.isReady ? (
-    <PostArticle>
+    
+    <PostArticle> 
       <Header>
+        
         <SectionContainer>
           {/* If the post has categories, render the categories */}
           {post.categories && <PostCategories categories={categories} />}

@@ -13,16 +13,10 @@
   "scripts": {
     "dev": "frontity dev",
     "build": "frontity build",
-    "serve": "frontity serve",
-    "android": "cap add android",
-    "android-open": "cap open android"
+    "serve": "frontity serve"
   },
   "prettier": {},
   "dependencies": {
-    "@capacitor/android": "^3.2.5",
-    "@capacitor/cli": "^3.2.5",
-    "@capacitor/core": "^3.2.5",
-    "@capacitor/ios": "^3.2.5",
     "@frontity/core": "^1.14.3",
     "@frontity/google-analytics": "^2.1.0",
     "@frontity/head-tags": "^1.1.1",
@@ -33,7 +27,7 @@
     "@frontity/wp-source": "^1.11.6",
     "@frontity/yoast": "^2.1.1",
     "frontity": "^1.17.1",
-    "react-animated-text": "^0.1.4",
-    "react-simple-image-slider": "^2.3.0"
+    "react-simple-image-slider": "^2.3.0",
+    "webpack": "^5.64.4"
   }
 }

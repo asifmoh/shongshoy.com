@@ -1,7 +1,7 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
 import SectionContainer from "./styles/section-container";
-import { Wave } from 'react-animated-text';
+
 
 // Component that provides scroll to top functionality
 const BackToTop = () => {
@@ -120,9 +120,7 @@ const Footer = ({ state }) => {
             <Link link={state.frontity.url}>{state.frontity.title}</Link> 
             &nbsp;&copy; {currentYear}{" "}
           </Copyright>
-          <div className="brighttext">
-          <Wave text=" | Shongshoy: Bengali blog about Skepticism |" /></div>
-
+         
           <PoweredBy>সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত </PoweredBy>
         </Credits>
         <BackToTop />

@@ -51,17 +51,18 @@ const PostItem = ({
   const { Component: Html2React } = libraries.html2react;
  
   return (
-   
-   
+    
+    
+    
    <Post>
-
+ 
 
       <PostHeader>
       
-        
+      
         <SectionContainer>
         
-     
+      
           {/* If the post has categories, render the categories */}
           {item.categories && <PostCategories categories={categories} />}
 
@@ -99,6 +100,7 @@ const PostItem = ({
         </PostInner>
       )}
     </Post>
+    
   );
 };
 
