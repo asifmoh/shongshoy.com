@@ -5,7 +5,7 @@ import ArchiveHeader from "./archive-header";
 import Pagination from "./archive-pagination";
 import PostSeparator from "../post/post-separator";
 import Post from "../post";
-import Slider from "./featured-archive"
+//import Slider from "./featured-archive"
 
 
 const Archive = ({ state, showExcerpt, showMedia }) => {
@@ -24,7 +24,7 @@ const Archive = ({ state, showExcerpt, showMedia }) => {
   return (
     <>
       
-      <Slider /> 
+    
       {/* If the list is a taxonomy, we render a title. */}
       {data.isTaxonomy && (
         <ArchiveHeader labelColor={primary} label={data.taxonomy}>
