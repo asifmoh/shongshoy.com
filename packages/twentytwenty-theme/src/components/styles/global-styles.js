@@ -48,9 +48,10 @@ const cssReset = css`
     text-align: inherit;
   }
   .brighttext {
-font-size: 1.2rem;
+font-size: 1.4rem;
     color: #0e0740;
   }
+<<<<<<< HEAD
 
 
 
@@ -214,6 +215,9 @@ font-size: 1.2rem;
 
 
   blockquote{
+=======
+blockquote{
+>>>>>>> parent of 2ba1d68 (footer solved)
   margin-bottom:3rem;
 }
 

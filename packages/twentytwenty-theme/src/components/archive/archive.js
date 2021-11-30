@@ -35,7 +35,7 @@ const Archive = ({ state, showExcerpt, showMedia }) => {
 
       {/* If the list is for a specific author, we render a title. */}
       {data.isAuthor && (
-        <ArchiveHeader labelColor={primary} label="লেখক">
+        <ArchiveHeader labelColor={primary} label="Author">
           <b>{decode(state.source.author[data.id].name)}</b>
         </ArchiveHeader>
       )}

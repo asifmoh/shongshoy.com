@@ -49,20 +49,14 @@ const PostItem = ({
 
   const content = showExcerpt ? item.excerpt : item.content;
   const { Component: Html2React } = libraries.html2react;
- 
   return (
-    
-    
-    
-   <Post>
- 
 
+
+    <Post>
       <PostHeader>
-      
-      
-        <SectionContainer>
         
-      
+        <SectionContainer>
+
           {/* If the post has categories, render the categories */}
           {item.categories && <PostCategories categories={categories} />}
 
@@ -120,7 +114,6 @@ export const Post = styled.article`
     }
   }
 `;
-
 
 export const PostHeader = styled.header`
   text-align: center;

@@ -44,7 +44,7 @@ const MobileMenuModal = ({ state, actions }) => {
               aria-expanded={isMobileMenuOpen}
               onClick={closeMobileMenu}
             >
-              <ToggleText> মেন্যু বন্ধ করুন</ToggleText>
+              <ToggleText> Close Menu</ToggleText>
               <CloseIcon />
             </CloseNavToggle>
 
@@ -100,12 +100,11 @@ const Modal = styled.div`
 `;
 
 const ModalInner = styled.div`
-  background: #2e3748;
+  background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(78,170,133,0.835171568627451) 0%, rgba(54,230,232,1) 49%, rgba(0,212,255,1) 100%);
   display: flex;
   justify-content: stretch;
   overflow: auto;
   width: 100%;
-  border-radius: 1rem;
 `;
 
 const MenuWrapper = styled(SectionContainer)`
@@ -129,8 +128,7 @@ const MenuList = styled.ul`
 `;
 
 const ToggleText = styled.span`
-color: Green;  
-margin-right: 1.6rem;
+  margin-right: 1.6rem;
   * {
     fill: currentColor;
   }
