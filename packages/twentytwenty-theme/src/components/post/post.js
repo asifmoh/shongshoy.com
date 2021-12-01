@@ -13,7 +13,7 @@ import {
 import PostCategories from "./post-categories";
 import PostMeta from "./post-meta";
 import PostTags from "./post-tags";
-import Comments from "../comments";
+
 
 /**
  * The Post component that the TwentyTwenty theme uses for rendering any kind of
@@ -73,10 +73,8 @@ const Post = ({ state, actions, libraries }) => {
 
   // Load the post, but only if the data is ready.
   return data.isReady ? (
-    
-    <PostArticle> 
+    <PostArticle>
       <Header>
-        
         <SectionContainer>
           {/* If the post has categories, render the categories */}
           {post.categories && <PostCategories categories={categories} />}
@@ -119,8 +117,7 @@ const Post = ({ state, actions, libraries }) => {
           <EntryContent>
             <Html2React html={post.content.rendered} />
           </EntryContent>
-          <hr />
-          <Comments postId={post.id} />
+                 
           {/* If the post has tags, render it */}
           {post.tags && <PostTags tags={tags} />}
         </PostInner>

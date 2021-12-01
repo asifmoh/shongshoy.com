@@ -3,14 +3,14 @@ import React, { Component } from 'react';
 export default class featuredArchive extends Component {
     render() {
         return (
-         
-         
+
+
          <div className="slider-container">
           <div className="slider">
             <div className="slides">
-             
-             
-             
+
+
+
               <div id="slides__1" className="slide">
                 <span className="slide__image">
                   <img
@@ -24,7 +24,7 @@ export default class featuredArchive extends Component {
                   </div>
                 </span>
               </div>
-        
+
               <div id="slides__2" className="slide">
                 <span className="slide__image">
                   <img
@@ -38,7 +38,7 @@ export default class featuredArchive extends Component {
                   </div>
                 </span>
               </div>
-        
+
               <div id="slides__3" className="slide">
                 <span className="slide__image">
                   <img
@@ -52,7 +52,7 @@ export default class featuredArchive extends Component {
                   </div>
                 </span>
               </div>
-        
+
               <div id="slides__4" className="slide">
                 <span className="slide__image">
                   <img
@@ -66,7 +66,7 @@ export default class featuredArchive extends Component {
                   </div>
                 </span>
               </div>
-        
+
               <div id="slides__5" className="slide">
                 <span className="slide__image">
                   <img
@@ -98,7 +98,7 @@ export default class featuredArchive extends Component {
             </div>
           </div>
         </div>
-        
+
         )
     }
 }

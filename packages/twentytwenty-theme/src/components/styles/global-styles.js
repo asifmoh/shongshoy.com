@@ -51,7 +51,7 @@ const cssReset = css`
 font-size: 1.4rem;
     color: #0e0740;
   }
-<<<<<<< HEAD
+
 
 
 
@@ -213,11 +213,15 @@ font-size: 1.4rem;
 
 
 
+#slider{
+  display: block;
+  margin-left: 20%;
+  margin-right: 30%;
+  width: 40%;
+}
 
-  blockquote{
-=======
 blockquote{
->>>>>>> parent of 2ba1d68 (footer solved)
+
   margin-bottom:3rem;
 }
 
@@ -324,7 +328,7 @@ const elementBase = (colors) => css`
 
   h1,
   .heading-size-1 {
-    font-size: 2.6rem;
+    font-size: 3.6rem;
     font-weight: 800;
     line-height: 1.138888889;
   }

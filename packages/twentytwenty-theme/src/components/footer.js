@@ -24,17 +24,17 @@ const BackToTop = () => {
   );
 };
 
+
 const Footer = ({ state }) => {
   const currentYear = new Date().getFullYear();
   const { footerBg } = state.theme.colors;
 
   return (
     <SiteFooter bg={footerBg} role="contentinfo">
-       
+        <SiteFooterCategory>
       
 
-
-       <SiteFooterCategory>
+      
        <h4>বিভাগ সমূহ </h4>
        <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
       
@@ -49,7 +49,7 @@ const Footer = ({ state }) => {
       <a href="/category/science/archeology">আর্কিওলজি</a> |&nbsp;
       <a href="/category/science/physics">পদার্থবিদ্যা</a> |&nbsp;
       <a href="/category/science/space">মহাকাশ</a> |&nbsp; 
-      <a href="/category/science/big-bang">বৃহৎ সম্প্রসারণ</a>
+      <a href="/category/science/big-bang">বৃহৎ সম্প্রসারণ</a> |&nbsp;
       <a href="/category/pseudoscience">ছদ্মবিজ্ঞান</a> |&nbsp;
       <a href="/category/human-rights">মানবাধিকার</a> |&nbsp;
       <a href="/category/science/psychology">মনোবিজ্ঞান</a> |&nbsp;
@@ -71,11 +71,11 @@ const Footer = ({ state }) => {
       <a href="/category/religion/islam/error-in-hadith">হাদিসের ভুল</a> |&nbsp;
       <a href="/category/religion/hinduism">হিন্দুধর্ম</a> |&nbsp;
       <a href="/category/feminism/women-in-hinduism">হিন্দুধর্মে নারী</a> |&nbsp;
-      <a href="/category/religion/christianity">খ্খ্রিস্টান</a> |&nbsp;
+      <a href="/category/religion/christianity">খ্রিস্টধর্ম</a> |&nbsp;
       <a href="/category/religion/buddhism">বৌদ্ধ</a> |&nbsp;
       <a href="/category/propaganda">প্রোপাগান্ডা</a> |&nbsp;
       <a href="/category/question-answer">প্রশ্নোত্তর</a> |&nbsp;
-      <a href="/category/books">বই</a> |&nbsp; 
+      <a href="/category/books">বই</a> 
      
       </div>
       <hr />
@@ -145,6 +145,13 @@ const SiteFooterInner = styled(SectionContainer)`
   align-items: baseline;
   display: flex;
   justify-content: space-between;
+  border: .1rem solid red;
+  padding-left: 1rem;
+  @media (min-width: 700px) {
+    padding-left: 8rem;
+  }
+  
+  
 `;
 
 const SiteFooterTag = styled(SectionContainer)`
