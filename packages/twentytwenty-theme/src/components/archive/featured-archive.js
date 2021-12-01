@@ -95,6 +95,36 @@ export default class featuredArchive extends Component {
                 </span>
               </div>
 
+              <div id="slides__7" className="slide">
+                <span className="slide__image">
+                  <img
+                    alt="বহুল প্রচলিত কিছু কুযুক্তি বা ফ্যালাসি বা কুতর্ক বা হেত্বাভাস"
+                    src="https://www.nastikya.com/wp-content/uploads/2018/01/logic_shongshoy.jpg"
+                  />
+                  <div className="text-block">
+                    <a href="/%e0%a6%95%e0%a7%81%e0%a6%af%e0%a7%81%e0%a6%95%e0%a7%8d%e0%a6%a4%e0%a6%bf-%e0%a6%ac%e0%a6%be-%e0%a6%ab%e0%a7%8d%e0%a6%af%e0%a6%be%e0%a6%b2%e0%a6%be%e0%a6%b8%e0%a6%bf/">
+                    বহুল প্রচলিত কিছু কুযুক্তি বা ফ্যালাসি বা কুতর্ক বা হেত্বাভাস
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+              <div id="slides__8" className="slide">
+                <span className="slide__image">
+                  <img
+                    alt="নবী মুহাম্মদ কি সর্বকালের সর্বশ্রেষ্ঠ মানুষ ছিলেন?"
+                    src="https://www.nastikya.com/wp-content/uploads/2021/01/Muhammad_warlord.jpg"
+                  />
+                  <div className="text-block">
+                    <a href="/%e0%a6%a8%e0%a6%ac%e0%a7%80-%e0%a6%ae%e0%a7%81%e0%a6%b9%e0%a6%be%e0%a6%ae%e0%a7%8d%e0%a6%ae%e0%a6%a6-%e0%a6%95%e0%a6%bf-%e0%a6%b8%e0%a6%b0%e0%a7%8d%e0%a6%ac%e0%a6%95%e0%a6%be%e0%a6%b2%e0%a7%87/">
+                    নবী মুহাম্মদ কি সর্বকালের সর্বশ্রেষ্ঠ মানুষ ছিলেন?
+                    </a>
+                  </div>
+                </span>
+              </div>
+
+
+
             </div>
           </div>
         </div>

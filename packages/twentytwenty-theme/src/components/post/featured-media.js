@@ -59,4 +59,7 @@ const Image = styled(Img)`
   display: block;
   height: auto;
   max-height: 440px;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+  
 `;

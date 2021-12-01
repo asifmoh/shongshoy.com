@@ -55,6 +55,121 @@ font-size: 1.4rem;
 
 
 
+.social{
+  box-sizing: border-box;
+  background: #fff;
+}
+  .clip {
+    border: 0;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+  
+  .svg--source {
+    display: none
+  }
+  
+  .svg--icon {
+    width: 100%;
+    max-width: 5rem;
+    height: 100%;
+    max-height: 5rem;
+    display: block;
+    margin: 0 auto;
+    fill: currentColor
+  }
+  
+  .wrapper {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem;
+  }
+  
+  .share {
+    width: 5rem;
+    height: 5rem;
+    float: left;
+    margin: .5rem 1rem .5rem 0;
+    color: #353c4a;
+    border: .125rem solid #f3f3f3;
+    box-shadow: 0 0 8px 0 rgba(50, 50, 50, 0.15);
+    border-radius: 50%;
+    transition: 250ms;
+    
+    &:last-child {
+      margin-right: 0
+    }
+    
+    &:hover,
+    &:focus {
+      background: #f1f1f1;
+    }
+    
+    &:focus {
+      outline-color: inherit;
+    }
+  }
+  
+  .twitter {
+    &:hover,
+    &:focus {
+      color: #00ACED;
+      box-shadow: 0 0 24px 0 #00ACED
+    }
+  }
+  
+  .github {
+    &:hover,
+    &:focus {
+      color: #4183c4;
+      box-shadow: 0 0 24px 0 #4183c4
+    }
+  }
+  
+  .pinterest {
+    &:hover,
+    &:focus {
+      color: #bd081c;
+      box-shadow: 0 0 24px 0 #bd081c
+    }
+  }
+  
+  .youtube {
+    &:hover,
+    &:focus {
+      color: #cd201f;
+      box-shadow: 0 0 24px 0 #cd201f
+    }
+  }
+  
+  .facebook {
+    &:hover,
+    &:focus {
+      color: #3b5998;
+      box-shadow: 0 0 24px 0 #3b5998
+    }
+  }
+  
+  .google {
+    &:hover,
+    &:focus {
+      color: #dd4b39;
+      box-shadow: 0 0 24px 0 #dd4b39
+    }
+  }
+  
+  
+
+
   .text-block {
     position: absolute;
     bottom: 20px;
@@ -87,8 +202,8 @@ font-size: 1.4rem;
     max-width: 600px;
     height: 100%;
    
-   
-    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    border-radius: 5px;
     overflow: hidden;
     position: relative; 
   
@@ -100,6 +215,7 @@ font-size: 1.4rem;
     position: relative;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
+    
   }
   
   .slide:nth-of-type(even) {
@@ -121,6 +237,7 @@ font-size: 1.4rem;
     transform-origin: center center;
     transform: scale(1);
   }
+
   
   .slide__image {
     object-fit: cover;

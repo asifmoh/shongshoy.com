@@ -1,7 +1,7 @@
 import { styled, connect } from "frontity";
 import Link from "./link";
 import SectionContainer from "./styles/section-container";
-
+import Social from "./social";
 
 // Component that provides scroll to top functionality
 const BackToTop = () => {
@@ -33,7 +33,7 @@ const Footer = ({ state }) => {
     <SiteFooter bg={footerBg} role="contentinfo">
         <SiteFooterCategory>
       
-
+        <Social />
       
        <h4>বিভাগ সমূহ </h4>
        <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
@@ -112,8 +112,10 @@ const Footer = ({ state }) => {
       </div>
       <hr />
     </SiteFooterTag>
-      
+     
+   
       <SiteFooterInner>
+        
         <Credits>
           <Copyright>
           
