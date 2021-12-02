@@ -794,11 +794,6 @@ const mediaStyle = (colors) => css`
     display: block;
   }
 
-  img{
-    width: 750px;
-    max-height: 350px;
-  }
-
   svg,
   img,
   embed,

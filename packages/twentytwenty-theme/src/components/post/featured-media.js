@@ -32,7 +32,7 @@ const FeaturedMedia = ({ state, id, className }) => {
   return (
     <Figure className={className}>
       <SectionContainer size="medium">
-        <Image
+        <Image 
           alt={media.title.rendered}
           src={media.source_url}
           srcSet={srcset}
@@ -55,10 +55,10 @@ const Figure = styled.figure`
 
 const Image = styled(Img)`
   margin: 0 auto;
-  max-width: 100%;
+  width: 750px;
+  max-height: 400px;
   display: block;
-  height: auto;
-  max-height: 440px;
+  
   border-radius: 2rem;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
   
