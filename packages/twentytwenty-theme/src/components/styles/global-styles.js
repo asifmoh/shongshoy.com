@@ -281,7 +281,11 @@ font-size: 1.4rem;
     content: "";
     z-index: 1;
     background: none;
-    pointer-events: none;
+    pointer-events: none; 
+    @media (max-width: 700px) {
+      display: none;
+    
+  }
   }
   
   .slider__nav {
