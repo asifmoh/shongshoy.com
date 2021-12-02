@@ -363,8 +363,7 @@ blockquote{
   @media (min-width: 700px) {
     width: 20rem;
   }
-
-
+  
 
 }
 
