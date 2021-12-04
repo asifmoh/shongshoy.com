@@ -63,7 +63,7 @@ const settings = {
         "source": {
           "url": "https://www.shongshoy.com",
           "params": {
-            "per_page": 20
+            "per_page": 12
           }
         }
       }

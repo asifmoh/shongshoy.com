@@ -123,7 +123,7 @@ const Footer = ({ state }) => {
             &nbsp;&copy; {currentYear}{" "}
           </Copyright>
          
-          <PoweredBy>সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত </PoweredBy>
+          <PoweredBy> | সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত</PoweredBy>
         </Credits>
         <BackToTop />
        

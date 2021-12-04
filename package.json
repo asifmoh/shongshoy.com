@@ -4,24 +4,19 @@
   "private": true,
   "description": "Shongshoy.com React app",
   "keywords": [
-    "frontity"
+    "Shongshoy"
   ],
   "engines": {
     "node": ">=10.0.0",
     "npm": ">=6.0.0"
   },
   "scripts": {
-    "start": "frontity serve --port $PORT",
     "dev": "frontity dev",
     "build": "frontity build",
     "serve": "frontity serve"
   },
   "prettier": {},
   "dependencies": {
-    "@capacitor/android": "^3.2.5",
-    "@capacitor/cli": "^3.2.5",
-    "@capacitor/core": "^3.2.5",
-    "@capacitor/ios": "^3.2.5",
     "@frontity/core": "^1.14.3",
     "@frontity/head-tags": "^1.1.1",
     "@frontity/html2react": "^1.7.0",
