@@ -34,7 +34,10 @@ const Theme = ({ state }) => {
         <html lang="bn" />
         <meta name="robots" content="nofollow, noindex" />
         <link rel="canonical" href="https://www.shongshoy.com"></link>
-       
+        <link
+      rel="manifest"
+      href={`${state.source.api}wp/v2/web-app-manifest`}
+    />
         <meta name="facebook-domain-verification" content="2hqv17nofw0wuronu3mtxgzohw5fqb" />  
       </Head>
 
