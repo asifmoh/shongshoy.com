@@ -100,7 +100,7 @@ const Modal = styled.div`
 `;
 
 const ModalInner = styled.div`
-  background: #2e3748;
+  background: linear-gradient(90deg, rgba(58,159,180,1) 0%, rgba(116,200,92,0.9332107843137255) 65%, rgba(217,252,69,1) 100%);
   display: flex;
   justify-content: stretch;
   overflow: auto;
@@ -129,7 +129,7 @@ const MenuList = styled.ul`
 `;
 
 const ToggleText = styled.span`
-color: Green;  
+color: Yellow;  
 margin-right: 1.6rem;
   * {
     fill: currentColor;
@@ -155,18 +155,20 @@ const MenuLinkWrapper = styled.div`
 `;
 
 const MenuLink = styled(Link)`
-  font-size: 2rem;
+  font-size: 1.8rem;
   font-weight: 700;
   letter-spacing: -0.0375em;
   display: block;
-  padding: 2rem 2.5rem;
+  padding: 1.4rem 2.5rem;
   text-decoration: none;
   width: 100%;
   text-align: left;
+  
 
   @media (min-width: 700px) {
     font-size: 2.4rem;
     padding: 2.5rem 0;
+   
   }
 
   &:hover,
