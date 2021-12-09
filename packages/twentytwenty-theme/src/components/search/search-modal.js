@@ -145,7 +145,7 @@ const ModalOverlay = styled.div`
 const ModalInner = styled.div`
   box-shadow: 0 0 2rem 0 rgba(0, 0, 0, 0.08);
   transform: translateY(0);
-  background: #fff;
+  background: linear-gradient(90deg, rgba(58,159,180,1) 0%, rgba(116,200,92,0.9332107843137255) 65%, rgba(217,252,69,1) 100%);
   transition: transform 0.25s ease-in-out, box-shadow 0.1s 0.25s linear;
   cursor: default;
 `;
@@ -179,7 +179,7 @@ const SearchForm = styled.form`
 `;
 
 const SearchInput = styled.input`
-  background: none;
+  background: linear-gradient(90deg, rgba(58,159,180,1) 0%, rgba(116,200,92,0.9332107843137255) 65%, rgba(217,252,69,1) 100%);
   border: none;
   border-radius: 0;
   color: inherit;
@@ -213,7 +213,7 @@ const SearchInput = styled.input`
 `;
 
 const CloseButton = styled.button`
-  background: none;
+  background: #d9fc45;
   border: none;
   box-shadow: none;
   border-radius: 0;

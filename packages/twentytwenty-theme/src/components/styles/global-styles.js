@@ -448,34 +448,34 @@ const elementBase = (colors) => css`
 
   h1,
   .heading-size-1 {
-    font-size: 3.6rem;
-    font-weight: 800;
+    font-size: 2.6rem;
+    font-weight: 700;
     line-height: 1.138888889;
   }
 
   h2,
   .heading-size-2 {
-    font-size: 3.2rem;
+    font-size: 2.4rem;
   }
 
   h3,
   .heading-size-3 {
-    font-size: 2.8rem;
+    font-size: 2.2rem;
   }
 
   h4,
   .heading-size-4 {
-    font-size: 2.4rem;
+    font-size: 2rem;
   }
 
   h5,
   .heading-size-5 {
-    font-size: 2.1rem;
+    font-size: 1.9rem;
   }
 
   h6,
   .heading-size-6 {
-    font-size: 1.6rem;
+    font-size: 1.8rem;
     letter-spacing: 0.03125em;
     text-transform: uppercase;
   }
