@@ -113,7 +113,13 @@ const Footer = ({ state }) => {
       <hr />
     </SiteFooterTag>
      
-   
+    <SiteInfo>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+“সংশয় – চিন্তার মুক্তির আন্দোলন” একটি অলাভজনক ওয়েবসাইট। এই ওয়েবসাইটের সকল লেখা কপিরাইট মুক্ত, শুধুমাত্র আমাদের ওয়েবসাইট এবং মূল লেখকের নাম যুক্ত করার শর্তে। পাঠকদের বুদ্ধিবৃত্তিক বিতর্ক এবং আলোচনাকে উৎসাহিত করা আমাদের উদ্দেশ্য। বাঙলাদেশ সরকার কর্তৃক ইতিমধ্যে আমাদের অনেক লেখক এবং গোটা ওয়েবসাইটই নিষিদ্ধ ঘোষিত হয়েছে। যা আমাদের জন্য গর্বের, সম্মানের এবং আনন্দের। অসংখ্য আক্রমণ এবং রাজনৈতিক নির্যাতনের পরেও, জেল জুলুম এবং মামলার পরেও আমরা লিখে যাচ্ছি- সত্য, যুক্তি এবং মুক্তচিন্তা প্রসারের স্বার্থে। আপনাদের সহযোগিতা আমাদের কাম্য। অনুগ্রহ করে ওয়েবসাইটটি বন্ধুদের সাথে শেয়ার করুন। অলাভজনক ওয়েবসাইট হওয়ার কারণে আমাদের সামর্থ্য সীমিত। আপনি কোন ডোনেশন পাঠাতে চাইলে সম্পাদকের কাছে <a style={{ color: 'red' }} href = "mailto: info@shongshoy.com">ইমেইল</a> করুন।
+
+</SiteInfo>
+
+<hr />
       <SiteFooterInner>
         
         <Credits>
@@ -123,8 +129,10 @@ const Footer = ({ state }) => {
             &nbsp;&copy; {currentYear}{" "}
           </Copyright>
          
-          <PoweredBy> | সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত</PoweredBy>
+          <PoweredBy> | সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত  | </PoweredBy>
         </Credits>
+
+       
         <BackToTop />
        
       
@@ -141,7 +149,19 @@ const Footer = ({ state }) => {
 export default connect(Footer);
 
 
+const SiteInfo = styled.div`
+font-size: 1.5rem;
+width: calc(100% - 8rem);
+justify-content: space-between;
+  margin: auto;
+  
+  @media (min-width: 700px) {
+    padding-left: 8rem;
+    padding-right: 8rem;
+  }
+ 
 
+`;
 
 const SiteFooterInner = styled(SectionContainer)`
   align-items: baseline;
