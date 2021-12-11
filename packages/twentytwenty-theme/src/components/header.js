@@ -6,7 +6,7 @@ import SearchModal from "./search/search-modal";
 import MobileSearchButton from "./mobile/search-button";
 import MobileMenuButton from "./mobile/menu-button";
 import MobileMenuModal from "./mobile/menu-modal";
-import Sitelogo from '../assets/Shongshoy_Logo.gif';
+import Sitelogo from '../assets/shongshoy_Logo_400.gif';
 const Header = ({ state }) => {
   const { title, description } = state.frontity;
   const { headerBg } = state.theme.colors;

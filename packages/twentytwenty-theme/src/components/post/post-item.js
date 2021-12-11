@@ -201,7 +201,12 @@ const PostLink = styled(Link)`
 `;
 
 export const PostInner = styled(SectionContainer)`
-  padding-top: 2rem;
+
+    margin: auto;
+    max-width: 96rem; !important
+    padding: 2rem 2rem 2rem 2rem;  
+
+padding-top: 2rem;
   @media (min-width: 700px) {
     padding-top: 8rem;
     }
@@ -209,7 +214,7 @@ export const PostInner = styled(SectionContainer)`
 
 export const EntryContent = styled.div`
   line-height: 1.5;
-  max-width: 58rem;
+ 
   font-family: "Kalpurush", Garamond, "Times New Roman", serif;
   letter-spacing: normal;
 

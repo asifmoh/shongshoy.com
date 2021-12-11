@@ -156,8 +156,8 @@ justify-content: space-between;
   margin: auto;
   
   @media (min-width: 700px) {
-    padding-left: 8rem;
-    padding-right: 8rem;
+    padding-left: 12rem;
+    padding-right: 12rem;
   }
  
 

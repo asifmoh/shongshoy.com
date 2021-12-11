@@ -802,7 +802,31 @@ const mediaStyle = (colors) => css`
     height: auto;
     max-width: 100%;
     margin: auto;
+    
   }
+  
+  
+  
+  .wp-block-image .aligncenter
+  {
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .wp-block-image .alignright {
+    display: table;
+    float: right;
+    margin: 0.5em 0 0.5em 1em;
+}
+.wp-block-image .alignleft {
+  display: table;
+  float: left;
+  margin: 0.5em 1em 0.5em 0;
+}
+
+
+
+
 
   figcaption,
   .wp-caption-text {
