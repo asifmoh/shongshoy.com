@@ -68,6 +68,16 @@ const settings = {
         }
       }
     },
+
+    {
+      "name": "@frontity/google-analytics",
+      "state": {
+        "googleAnalytics": {
+          "trackingIds": ['UA-210896780-2']
+        },
+      },
+    },
+
     "@frontity/tiny-router",
     "@frontity/html2react",
     "@frontity/head-tags"
