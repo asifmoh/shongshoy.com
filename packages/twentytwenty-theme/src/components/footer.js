@@ -81,7 +81,7 @@ const Footer = ({ state }) => {
       <hr />
        </SiteFooterCategory>
        
-       <SiteFooterTag>
+      <SiteFooterTag>
          <h4>ট্যাগ ক্লাউড</h4>
          <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
       <a href="/tag/guest-writers">অতিথি লেখক(32)</a> |&nbsp; 
@@ -113,6 +113,27 @@ const Footer = ({ state }) => {
       <hr />
     </SiteFooterTag>
      
+    <SiteFooterContact>
+         <h4>যোগাযোগ এবং লেখা প্রেরণ</h4>
+         <div style={{ border: '2px solid #F4B400', padding: "2rem 2rem 2rem 2rem" }}>
+         
+                        লেখা পাঠাবার জন্য আমাদের কাছে একটি লেখা ইমেইল করুন। রেফারেন্সভিত্তিক তথ্যসমৃদ্ধ লেখাই শুধুমাত্র আমরা প্রকাশ করি।
+                        মন্তব্য করার জন্য আমাদের মূল ওয়েবসাইটে <a href="https://www.shongshoy.com/wp-login.php?action=register">রেজিস্ট্রেশন বা সাবস্ক্রাইব করুন।</a> লেখা পাঠাবার জন্য নিচের ইমেইল এড্রেসগুলোতে ইমেইল করতে পারেনঃ <br />
+                        
+                        <ul>
+<li>Editor-in-Chief: Asif Mohiuddin&nbsp;<a href="mailto:info@shongshoy.com?Subject=About%20Shongshoy" target="_top" rel="noopener">Send Mail</a></li>
+<li>Article Editor: Matubbar Azad Avijit <a href="mailto:matubbar@shongshoy.com?Subject=About%20Shongshoy%20Article" target="_top" rel="noopener">Send Mail</a></li>
+<li>Rebuttal Editor: Marufur Rahman Khan <a href="mailto:maruf@shongshoy.com?Subject=About%20Shongshoy%20Rebuttal" target="_top" rel="noopener">Send Mail</a></li>
+<li>Science Editor: Dr. Amit <a href="mailto:amit@shongshoy.com?Subject=About%20Shongshoy%20Science" target="_top" rel="noopener">Send Mail</a></li>
+<li>Content Editor: Jack Piter <a href="mailto:jack@shongshoy.com?Subject=About%20Shongshoy%20Content" target="_top" rel="noopener">Send Mail</a></li>
+</ul> </div>            
+      <hr />
+    </SiteFooterContact>
+     
+    
+    
+    
+    
     <SiteInfo>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 “সংশয় – চিন্তার মুক্তির আন্দোলন” একটি অলাভজনক ওয়েবসাইট। এই ওয়েবসাইটের সকল লেখা কপিরাইট মুক্ত, শুধুমাত্র আমাদের ওয়েবসাইট এবং মূল লেখকের নাম যুক্ত করার শর্তে। পাঠকদের বুদ্ধিবৃত্তিক বিতর্ক এবং আলোচনাকে উৎসাহিত করা আমাদের উদ্দেশ্য। বাঙলাদেশ সরকার কর্তৃক ইতিমধ্যে আমাদের অনেক লেখক এবং গোটা ওয়েবসাইটই নিষিদ্ধ ঘোষিত হয়েছে। যা আমাদের জন্য গর্বের, সম্মানের এবং আনন্দের। অসংখ্য আক্রমণ এবং রাজনৈতিক নির্যাতনের পরেও, জেল জুলুম এবং মামলার পরেও আমরা লিখে যাচ্ছি- সত্য, যুক্তি এবং মুক্তচিন্তা প্রসারের স্বার্থে। আপনাদের সহযোগিতা আমাদের কাম্য। অনুগ্রহ করে ওয়েবসাইটটি বন্ধুদের সাথে শেয়ার করুন। অলাভজনক ওয়েবসাইট হওয়ার কারণে আমাদের সামর্থ্য সীমিত। আপনি কোন ডোনেশন পাঠাতে চাইলে সম্পাদকের কাছে <a style={{ color: 'red' }} href = "mailto: info@shongshoy.com">ইমেইল</a> করুন।
@@ -125,11 +146,11 @@ const Footer = ({ state }) => {
         <Credits>
           <Copyright>
           
-            <Link link={state.frontity.url}>{state.frontity.title}</Link> 
+            <Link link={state.frontity.url}> | {state.frontity.title}</Link> 
             &nbsp;&copy; {currentYear}{" "}
           </Copyright>
          
-          <PoweredBy> | সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত  | </PoweredBy>
+          <PoweredBy>| সর্বসত্ত্ব মানুষের জন্য সংরক্ষিত  |</PoweredBy>
         </Credits>
 
        
@@ -186,7 +207,10 @@ const SiteFooterCategory = styled(SectionContainer)`
  
 `;
 
-
+const SiteFooterContact = styled(SectionContainer)`
+  
+ 
+`;
 
 const SiteFooter = styled.footer`
   margin-top: 2rem;
